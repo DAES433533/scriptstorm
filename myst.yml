@@ -3,19 +3,32 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
+  title: Data Visualization of 3 Meteorological Events
   github: https://github.com/projectpythia/cookbook-template
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Sage Keidel
+    - name: Jack Fordyce
+    - name: Tianyu Zhu
+  copyright: '2025'
   toc:
     - file: README.md
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+    - title: ERA5 Reanalysis
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/era5_tornado.ipynb
+        - file: notebooks/era5_lakeeffect.ipynb
+        - file: notebooks/era5_heatwave.ipynb
+    - title: Radar/Satellite Imagery
+      children:
+        - file: notebooks/Tornado_outbreak.ipynb
+        - file: notebooks/Lake_effect.ipynb
+        - file: notebooks/Heatwave.ipynb
+    - title: GFS Forecast Analysis
+      children:
+        - file: notebooks/notebook3.ipynb
+    - file: conclusion.md
   jupyter:
       binder:
         repo: projectpythia/cookbook-template

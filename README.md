@@ -1,4 +1,4 @@
-# (Replace_with_your_title) Cookbook
+# Data Visualization of 3 Meteorological Events
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
@@ -8,33 +8,37 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook examines three types of extreme weather events: tornado outbreaks, heatwaves, and lake-effect snowstorms to better understand their development and how accurately models and data can predict or visualize them. Using data from ERA5 reanalysis, GFS model outputs, satellite imagery, and radar, we analyze how each event evolved and how well key variables such as temperature, wind, and precipitation were represented. The case studies include the April 2011 tornado outbreak, the July 2023 U.S. heatwave and the November 2022 lake-effect snowstorm which together highlight different atmospheric processes across various spatial and temporal scales. By comparing model performance across these events, this study identifies both strengths and weaknesses in current forecasting systems and provides insight into how future prediction of extreme weather could be improved. 
+
+(Jack Fordyce)
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+Extreme weather events such as tornado outbreaks, heatwaves, and lake-effect snowstorms represent some of the most significant challenges in meteorological forecasting and climate analysis. Each of these phenomena involves unique atmospheric dynamics, yet they are interconnected through shared physical processes and can be analyzed using similar datasets and modeling frameworks. This project aims to investigate these different types of extreme events using consistent data sources—such as ERA5 reanalysis, GFS model outputs, satellite observations, and station-based measurements—to better understand their evolution, predictability, and impacts.
+
+By examining case studies of the April 2011 tornado outbreak, the July 2023 U.S. heatwave, and the November 2022 lake-effect snow event, we can compare how well models capture different forms of extreme weather. Through time series, spatial visualizations, and model verification analyses, the project will evaluate model skill across various variables (e.g., temperature, precipitation, and wind) and time scales. Ultimately, this comparative framework provides insight into both the strengths and limitations of current forecasting systems and highlights opportunities to improve prediction accuracy across multiple types of extreme events.
+
+(Tianyu Zhu)
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
-
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
+[Sage Keidel](https://github.com/sagekeidel), [Tianyu Zhu](https://github.com/Tianyuzhu-9999), [Jack Fordyce](https://github.com/JackFwx124)
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This notebook will be composed of three main sections; ERA-5 Reanalysis, Radar and Satellite Imagery, and GFS Forecast Analysis.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### ERA-5 Reanalysis
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+The ERA5 Reanalysis example workflows will examine all three events (tornado outbreak, lake effect snowstorm, and heat wave) and the main 
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Radar and Satellite Imagery
 
-(Add content for this section, e.g., "Example workflows include ... ")
+The radar and satellite imagery workflows will again examine all three events using archived radar and satellite data, depending on what is more appropriate for understanding the event.
+
+### GFS Forecast Analysis
+
+The GFS Forecast Analysis workflows will examine how the all three events were handled by the GFS.
 
 ## Running the Notebooks
 
