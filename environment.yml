@@ -1,7 +1,28 @@
-name: cookbook-dev
+name: scriptstorm
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - requests
+  - xarray
+  - matplotlib
+  - cartopy
+  - numpy
+  - pandas
+  - metpy
+  - pyart
+  - fsspec
+  - metpy
+  - matplotlib
+  - cartopy
+  - numpy
+  - pandas
+  - imageio
+  - shapely
+  - ipython
+  - goes2go
+  - scipy
+  - pygrib
