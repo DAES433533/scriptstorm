@@ -13,7 +13,7 @@ dependencies:
   - numpy
   - pandas
   - metpy
-  - pyart
+  - arm_pyart
   - fsspec
   - metpy
   - matplotlib
