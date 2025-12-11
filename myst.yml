@@ -4,7 +4,7 @@ extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
   title: Data Visualization of 3 Meteorological Events
-  github: https://github.com/projectpythia/cookbook-template
+  github: https://github.com/DAES433533/scriptstorm
   authors:
     - name: Sage Keidel
     - name: Jack Fordyce

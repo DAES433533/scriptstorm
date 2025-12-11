@@ -2,10 +2,6 @@
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
-
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
 This Project Pythia Cookbook examines three types of extreme weather events: tornado outbreaks, heatwaves, and lake-effect snowstorms to better understand their development and how accurately models and data can predict or visualize them. Using data from ERA5 reanalysis, GFS model outputs, satellite imagery, and radar, we analyze how each event evolved and how well key variables such as temperature, wind, and precipitation were represented. The case studies include the April 2011 tornado outbreak, the July 2023 U.S. heatwave and the November 2022 lake-effect snowstorm which together highlight different atmospheric processes across various spatial and temporal scales. By comparing model performance across these events, this study identifies both strengths and weaknesses in current forecasting systems and provides insight into how future prediction of extreme weather could be improved. 
@@ -70,22 +66,20 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/Meteorological_Data_Vis` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/Meteorological_Data_Vis.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `Meteorological_Data_Vis` directory
    ```bash
-   cd cookbook-example
+   cd Meteorological_Data_Vis
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate Meteorological_Data_Vis
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
