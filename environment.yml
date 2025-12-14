@@ -2,7 +2,6 @@ name: scriptstorm
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
   - jupyterlab
   - mystmd
   - jupyterlab-myst
@@ -16,10 +15,6 @@ dependencies:
   - arm_pyart
   - fsspec
   - metpy
-  - matplotlib
-  - cartopy
-  - numpy
-  - pandas
   - imageio
   - shapely
   - ipython
